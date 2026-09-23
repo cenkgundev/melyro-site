@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="apple-bipbop-adv-ts" tvg-name="Apple BipBop Advanced (TS)" group-title="Apple HLS Examples",Apple BipBop Advanced (TS)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8
+#EXTINF:-1 tvg-id="apple-bipbop-adv-fmp4" tvg-name="Apple BipBop Advanced (fMP4)" group-title="Apple HLS Examples",Apple BipBop Advanced (fMP4)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+#EXTINF:-1 tvg-id="apple-bipbop-16x9" tvg-name="Apple BipBop 16x9" group-title="Apple HLS Examples",Apple BipBop 16x9
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+#EXTINF:-1 tvg-id="apple-bipbop-4x3" tvg-name="Apple BipBop 4x3" group-title="Apple HLS Examples",Apple BipBop 4x3
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+#EXTINF:-1 tvg-id="apple-dolby-vision-atmos" tvg-name="Apple Dolby Vision + Atmos" group-title="Apple HLS Examples",Apple Dolby Vision + Atmos
+https://devstreaming-cdn.apple.com/videos/streaming/examples/adv_dv_atmos/main.m3u8
