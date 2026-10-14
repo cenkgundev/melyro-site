@@ -1,0 +1,1 @@
+document.documentElement.classList.remove('js');var s=document.createElement('style');s.textContent='*,*::before,*::after{animation:none!important;transition:none!important}';document.head.appendChild(s);0
