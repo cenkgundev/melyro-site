@@ -2,19 +2,25 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="index">
 <title>Destek / Support — Melyro</title>
+<meta name="theme-color" content="#0D0C0B">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="img/mark.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="wrap">
-<header class="site">
-  <a class="brand" href="index.html">Melyro</a>
-  <nav><a href="privacy.html">Gizlilik</a><a href="support.html">Destek</a></nav>
-  <div class="langs"><a href="#tr">TR</a><a href="#en" hreflang="en" lang="en">EN</a><a href="#de" hreflang="de" lang="de">DE</a></div>
+<header class="bar">
+  <div class="bar-in">
+    <a class="brand" href="index.html" aria-label="Melyro"><span class="wm">melyro<span class="lamp" aria-hidden="true"></span></span></a>
+    <nav aria-label="Melyro"><a href="index.html">Ana sayfa</a><a href="privacy.html">Gizlilik</a><a href="support.html#tr" aria-current="page">Destek</a></nav>
+    <div class="langs" role="group" aria-label="Language"><a href="#tr" hreflang="tr" lang="tr">TR</a><a href="#en" hreflang="en" lang="en">EN</a><a href="#de" hreflang="de" lang="de">DE</a></div>
+    <a class="btn" href="https://apps.apple.com/app/id6812315758">İndir</a>
+  </div>
 </header>
-<main>
+<main class="wrap">
 
 <section id="tr">
 <h1>Destek</h1>
@@ -192,10 +198,13 @@
 </section>
 
 </main>
-<footer class="site">
-  <span>© 2026 Melyro</span>
-  <span><a href="index.html">Ana sayfa</a><a href="index-en.html" lang="en">Home (EN)</a><a href="index-de.html" lang="de">Startseite (DE)</a></span>
+<footer class="foot">
+  <div class="foot-in">
+    <a class="brand" href="index.html" aria-label="Melyro"><span class="wm">melyro<span class="lamp" aria-hidden="true"></span></span></a>
+    <nav aria-label="Melyro"><a href="index.html">Ana sayfa</a><a href="privacy.html">Gizlilik</a><a href="support.html#tr">Destek</a><a href="mailto:support@melyro.app">support@melyro.app</a></nav>
+  </div>
+  <p class="tm">Apple, iPhone, iPad, AirPlay ve App Store, Apple Inc.'in ticari markalarıdır. Chromecast, Google LLC'nin ticari markasıdır.</p>
+  <p class="tm">© 2026 Melyro</p>
 </footer>
-</div>
 </body>
 </html>
